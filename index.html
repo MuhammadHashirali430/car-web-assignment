@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-logo">
+                <div class="logo">MORENT</div>
+            </div>
+            <div class="nav-seach-con">
+              <div class="nav-search">
+                 <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                 <input class="nav-input" type="text" placeholder="Search somthing">
+                 <div class="silider-icon"><i class="fa-solid fa-sliders"></i></div>
+              </div>
+            </div>
+            <div class="nav-like">
+                <div class="like-icon"><i class="fa-solid fa-heart"></i></div>
+            </div>
+            <div class="nav-bell">
+                <div class="bell-icon"><i class="fa-solid fa-bell"></i></div>
+            </div>
+            <div class="nav-setting">
+                <div class="setting-icon"><i class="fa-solid fa-gear"></i></div>
+            </div>
+            <div class="nav-profile">
+                <img class="profile" src="Rectangle 40.png" alt="">
+            </div>  
+        </nav>
+    </header>
+    <div class="main-con-color">
+      <div class="main-con">
+        <div class="hero-section-con">
+            <div class="hero-box-1">
+              <div class="hero-box-con">
+                <div class="hero-box-heading">
+                    The Best Platform <br> for Car Rental
+                </div>
+                <div class="hero-box-text">
+                    Ease of doing a car rental safely and <br> reliably.Of course at a low price
+                </div>
+                <div class="hero-button-con">
+                    <button class="hero-button">Rental Car</button>
+                </div>
+                <div class="img-con">
+                    <img class="hero-car" src="car.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="hero-box-2">
+                <div class="hero-box-con">
+                    <div class="hero-box-heading">
+                        Easy way to rent a <br> car at a low price
+                    </div>
+                    <div class="hero-box-text">
+                        providing cheap car rental services<br> and safe and comfortable facilities
+                    </div>
+                    <div class="hero-button-con">
+                        <button class="hero-button-2">Rental Car</button>
+                    </div>
+                    <div class="img-con">
+                        <img class="hero-car" src="car.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-container">
+            <div class="panel-box-1">
+                <div class="radio-con">
+                  <input type="radio" class="radio-button" name="pick-up" value="pick-up">
+                  <label for="Pick-Up" class="radio-label">Pick-Up</label>
+               </div>
+               <div class="panel-content">
+                   <div class="con">
+                     <label for="Location" class="add">Location</label> <br>
+                     <select name="select-city" id="sel-loc">
+                        <option value="disable selected">selected your city</option>
+                        <option value="karachi">karachi</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Lahore">Lahore</option>
+                     </select>
+                   </div>
+                   <div class="con">
+                    <label for="date" class="date-loc">Date</label> <br>
+                    <select name="select-date" id="sel-loc">
+                       <option value="disable selected">selected your city</option>
+                    </select>
+                  </div>
+                  <div class="con">
+                    <label for="time" class="time-loc">Time</label> <br>
+                    <select name="select-city" id="sel-loc">
+                       <option value="disable selected">selected your time</option>
+                    </select>
+                  </div>
+                </div>
+            </div>
+
+            <div class="panel-box-2">
+                <div class="up-down-con">
+                    <div class="up-down-icon"><i class="fa-solid fa-arrow-down-up-across-line"></i></div>   
+                </div>
+            </div>
+
+            <div class="panel-box-3">
+                <div class="radio-con">
+                    <input type="radio" class="radio-button" name="pick-up" value="pick-up">
+                    <label for="radio" class="radio-label">Drop-Off</label>
+                 </div>
+                 <div class="panel-content">
+                     <div class="con">
+                       <label for="Location" class="add">Location</label> <br>
+                       <select name="select-city" id="sel-loc">
+                          <option value="disable selected">selected your city</option>
+                          <option value="karachi">karachi</option>
+                          <option value="Islamabad">Islamabad</option>
+                          <option value="Lahore">Lahore</option>
+                       </select>
+                     </div>
+                     <div class="con">
+                      <label for="date" class="date-loc">Date</label> <br>
+                      <select name="select-date" id="sel-loc">
+                         <option value="disable selected">selected your city</option>
+                      </select>
+                    </div>
+                    <div class="con">
+                      <label for="time" class="time-loc">Time</label> <br>
+                      <select name="select-city" id="sel-loc">
+                         <option value="disable selected">selected your time</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="populor-car-con">
+            <p class="populor-car">Populor Car</p>
+            <a href="#" class="viewall-link">View All</a>
+        </div>
+        <div class="shop-section-con">
+    <!-- card-1  -->
+            <div class="card">
+                <div class="card-head">
+                  <p class="car-name">Koenigsegg</p>
+                  <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+                </div>
+              <p class="car-category"> sport</p>
+              <div class="car-img-con">
+                <img class="car-img" src="car.png">
+              </div>
+               <div class="detail-con">
+                 <div class="patrol-icon-con">
+                   <div class="patrol-icon">
+                    <i class="fa-solid fa-gas-pump"></i>
+                   </div>
+                   <p class="patrol-text">90L</p>
+                 </div>
+                 <div class="manual-icon-con">
+                    <div class="manual-icon">
+                        <i class="fa-solid fa-spinner"></i>
+                    </div>
+                    <p class="manual-text">Manual</p>
+                 </div>
+                 <div class="user-icon-con">
+                    <div class="user-icon">
+                        <i class="fa-solid fa-user-group"></i>
+                    </div>
+                    <p class="user-text">2 People</p>
+                  </div>
+              </div>
+              <div class="car-price-con">
+                <div class="car-price">
+                    $99.00/ <span class="price-day">day</span>
+                </div>
+                <div class="rent-button-con">
+                    <button class="rent-button">Rent Nox</button>
+                </div>
+              </div>
+            </div>
+   <!-- card-2  -->
+            <div class="card">
+                <div class="card-head">
+                    <p class="car-name">Nissan GT-R</p>
+                    <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                <p class="car-category"> sport</p>
+                <div class="car-img-con">
+                  <img class="car-img" src="car2.png">
+                </div>
+                 <div class="detail-con">
+                   <div class="patrol-icon-con">
+                     <div class="patrol-icon">
+                      <i class="fa-solid fa-gas-pump"></i>
+                     </div>
+                     <p class="patrol-text">80L</p>
+                   </div>
+                   <div class="manual-icon-con">
+                      <div class="manual-icon">
+                          <i class="fa-solid fa-spinner"></i>
+                      </div>
+                      <p class="manual-text">Manual</p>
+                   </div>
+                   <div class="user-icon-con">
+                      <div class="user-icon">
+                          <i class="fa-solid fa-user-group"></i>
+                      </div>
+                      <p class="user-text">2 People</p>
+                    </div>
+                </div>
+                <div class="car-price-con">
+                  <div class="car-price">
+                      $80.00/ <span class="price-day">day</span>
+                      <p class="price-drop">$100.00</p>
+                  </div>
+                  <div class="rent-button-con">
+                      <button  class="rent-button">Rent Nox</button>
+                  </div>
+                </div>
+            </div>
+    <!-- card-3 -->
+            <div class="card">
+                <div class="card-head">
+                    <p class="car-name">Rolls-Royce</p>
+                    <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                <p class="car-category"> Sedan</p>
+                <div class="car-img-con">
+                  <img class="car-img" src="Car3.png">
+                </div>
+                 <div class="detail-con">
+                   <div class="patrol-icon-con">
+                     <div class="patrol-icon">
+                      <i class="fa-solid fa-gas-pump"></i>
+                     </div>
+                     <p class="patrol-text">70L</p>
+                   </div>
+                   <div class="manual-icon-con">
+                      <div class="manual-icon">
+                          <i class="fa-solid fa-spinner"></i>
+                      </div>
+                      <p class="manual-text">Manual</p>
+                   </div>
+                   <div class="user-icon-con">
+                      <div class="user-icon">
+                          <i class="fa-solid fa-user-group"></i>
+                      </div>
+                      <p class="user-text">4 People</p>
+                    </div>
+                </div>
+                <div class="car-price-con">
+                  <div class="car-price">
+                      $96.00/ <span class="price-day">day</span>
+                  </div>
+                  <div class="rent-button-con">
+                      <button  class="rent-button">Rent Now</button>
+                  </div>
+                </div>
+            </div>            
+    <!-- card-4 -->
+            <div class="card">
+                <div class="card-head">
+                    <p class="car-name">Nissan GT-R</p>
+                    <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                <p class="car-category"> sport</p>
+                <div class="car-img-con">
+                  <img class="car-img" src="Car4.png">
+                </div>
+                 <div class="detail-con">
+                   <div class="patrol-icon-con">
+                     <div class="patrol-icon">
+                      <i class="fa-solid fa-gas-pump"></i>
+                     </div>
+                     <p class="patrol-text">80L</p>
+                   </div>
+                   <div class="manual-icon-con">
+                      <div class="manual-icon">
+                          <i class="fa-solid fa-spinner"></i>
+                      </div>
+                      <p class="manual-text">Manual</p>
+                   </div>
+                   <div class="user-icon-con">
+                      <div class="user-icon">
+                          <i class="fa-solid fa-user-group"></i>
+                      </div>
+                      <p class="user-text">2 People</p>
+                    </div>
+                </div>
+                <div class="car-price-con">
+                  <div class="car-price">
+                      $80.00/ <span class="price-day">day</span>
+                      <p class="price-drop">$100.00</p>
+                  </div>
+                  <div class="rent-button-con">
+                      <button  class="rent-button">Rent Nox</button>
+                  </div>
+                </div>
+            </div>     
+    <!-- card-5 -->
+               <div class="card">
+                <div class="card-head">
+                    <p class="car-name">ALL New Rush</p>
+                    <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                <p class="car-category"> SUV</p>
+                <div class="car-img-con">
+                  <img class="car-img" src="Car5.png">
+                </div>
+                 <div class="detail-con">
+                   <div class="patrol-icon-con">
+                     <div class="patrol-icon">
+                      <i class="fa-solid fa-gas-pump"></i>
+                     </div>
+                     <p class="patrol-text">70L</p>
+                   </div>
+                   <div class="manual-icon-con">
+                      <div class="manual-icon">
+                          <i class="fa-solid fa-spinner"></i>
+                      </div>
+                      <p class="manual-text">Manual</p>
+                   </div>
+                   <div class="user-icon-con">
+                      <div class="user-icon">
+                          <i class="fa-solid fa-user-group"></i>
+                      </div>
+                      <p class="user-text">6 People</p>
+                    </div>
+                </div>
+                <div class="car-price-con">
+                  <div class="car-price">
+                      $72.00/ <span class="price-day">day</span>
+                      <p class="price-drop">$80.00</p>
+                  </div>
+                  <div class="rent-button-con">
+                      <button  class="rent-button">Rent Nox</button>
+                  </div>
+                </div>
+            </div>
+    <!-- card-6 -->
+        <div class="card">
+            <div class="card-head">
+                <p class="car-name">CR -V</p>
+                <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+              </div>
+            <p class="car-category"> SUV</p>
+            <div class="car-img-con">
+              <img class="car-img" src="Car6.png">
+            </div>
+             <div class="detail-con">
+               <div class="patrol-icon-con">
+                 <div class="patrol-icon">
+                  <i class="fa-solid fa-gas-pump"></i>
+                 </div>
+                 <p class="patrol-text">80L</p>
+               </div>
+               <div class="manual-icon-con">
+                  <div class="manual-icon">
+                      <i class="fa-solid fa-spinner"></i>
+                  </div>
+                  <p class="manual-text">Manual</p>
+               </div>
+               <div class="user-icon-con">
+                  <div class="user-icon">
+                      <i class="fa-solid fa-user-group"></i>
+                  </div>
+                  <p class="user-text">6 People</p>
+                </div>
+            </div>
+            <div class="car-price-con">
+              <div class="car-price">
+                  $80.00/ <span class="price-day">day</span>
+              </div>
+              <div class="rent-button-con">
+                  <button  class="rent-button">Rent Nox</button>
+              </div>
+            </div>
+        </div>
+    <!-- card-7  -->
+        <div class="card">
+            <div class="card-head">
+                <p class="car-name">ALL NEW Terios</p>
+                <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+              </div>
+            <p class="car-category"> SUV</p>
+            <div class="car-img-con">
+              <img class="car-img" src="Car7.png">
+            </div>
+             <div class="detail-con">
+               <div class="patrol-icon-con">
+                 <div class="patrol-icon">
+                  <i class="fa-solid fa-gas-pump"></i>
+                 </div>
+                 <p class="patrol-text">90L</p>
+               </div>
+               <div class="manual-icon-con">
+                  <div class="manual-icon">
+                      <i class="fa-solid fa-spinner"></i>
+                  </div>
+                  <p class="manual-text">Manual</p>
+               </div>
+               <div class="user-icon-con">
+                  <div class="user-icon">
+                      <i class="fa-solid fa-user-group"></i>
+                  </div>
+                  <p class="user-text">6 People</p>
+                </div>
+            </div>
+            <div class="car-price-con">
+              <div class="car-price">
+                  $74.00/ <span class="price-day">day</span>
+              </div>
+              <div class="rent-button-con">
+                  <button  class="rent-button">Rent Nox</button>
+              </div>
+            </div>
+        </div>
+    <!-- card-8  -->
+        <div class="card">
+            <div class="card-head">
+                <p class="car-name">CR -V</p>
+                <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+              </div>
+            <p class="car-category"> SUV</p>
+            <div class="car-img-con">
+              <img class="car-img" src="Car8.png">
+            </div>
+             <div class="detail-con">
+               <div class="patrol-icon-con">
+                 <div class="patrol-icon">
+                  <i class="fa-solid fa-gas-pump"></i>
+                 </div>
+                 <p class="patrol-text">80L</p>
+               </div>
+               <div class="manual-icon-con">
+                  <div class="manual-icon">
+                      <i class="fa-solid fa-spinner"></i>
+                  </div>
+                  <p class="manual-text">Manual</p>
+               </div>
+               <div class="user-icon-con">
+                  <div class="user-icon">
+                      <i class="fa-solid fa-user-group"></i>
+                  </div>
+                  <p class="user-text">6 People</p>
+                </div>
+            </div>
+            <div class="car-price-con">
+              <div class="car-price">
+                  $80.00/ <span class="price-day">day</span>
+              </div>
+              <div class="rent-button-con">
+                  <button  class="rent-button">Rent Nox</button>
+              </div>
+            </div>
+        </div>
+    <!-- card-9  -->
+        <div class="card">
+            <div class="card-head">
+                <p class="car-name">MGZXExclusice</p>
+                <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+              </div>
+            <p class="car-category"> Hatchback</p>
+            <div class="car-img-con">
+              <img class="car-img" src="Car8.png">
+            </div>
+             <div class="detail-con">
+               <div class="patrol-icon-con">
+                 <div class="patrol-icon">
+                  <i class="fa-solid fa-gas-pump"></i>
+                 </div>
+                 <p class="patrol-text">70L</p>
+               </div>
+               <div class="manual-icon-con">
+                  <div class="manual-icon">
+                      <i class="fa-solid fa-spinner"></i>
+                  </div>
+                  <p class="manual-text">Manual</p>
+               </div>
+               <div class="user-icon-con">
+                  <div class="user-icon">
+                      <i class="fa-solid fa-user-group"></i>
+                  </div>
+                  <p class="user-text">4 People</p>
+                </div>
+            </div>
+            <div class="car-price-con">
+              <div class="car-price">
+                  $76.00/ <span class="price-day">day</span>
+                  <p class="price-drop">$100.00</p>
+              </div>
+              <div class="rent-button-con">
+                  <button  class="rent-button">Rent Nox</button>
+              </div>
+            </div>
+        </div>     
+    <!-- card-10  -->
+           <div class="card">
+            <div class="card-head">
+                <p class="car-name">New MG ZS</p>
+                <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+              </div>
+            <p class="car-category"> SUV</p>
+            <div class="car-img-con">
+              <img class="car-img" src="car7.png">
+            </div>
+             <div class="detail-con">
+               <div class="patrol-icon-con">
+                 <div class="patrol-icon">
+                  <i class="fa-solid fa-gas-pump"></i>
+                 </div>
+                 <p class="patrol-text">80L</p>
+               </div>
+               <div class="manual-icon-con">
+                  <div class="manual-icon">
+                      <i class="fa-solid fa-spinner"></i>
+                  </div>
+                  <p class="manual-text">Manual</p>
+               </div>
+               <div class="user-icon-con">
+                  <div class="user-icon">
+                      <i class="fa-solid fa-user-group"></i>
+                  </div>
+                  <p class="user-text">6 People</p>
+                </div>
+            </div>
+            <div class="car-price-con">
+              <div class="car-price">
+                  $80.00/ <span class="price-day">day</span>
+              </div>
+              <div class="rent-button-con">
+                  <button class="rent-button">Rent Nox</button>
+              </div>
+            </div>
+        </div>
+    <!-- card-11  -->
+        <div class="card">
+            <div class="card-head">
+                <p class="car-name">MG ZXExcite</p>
+                <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+              </div>
+            <p class="car-category"> Hatchback</p>
+            <div class="car-img-con">
+              <img class="car-img" src="car6.png">
+            </div>
+             <div class="detail-con">
+               <div class="patrol-icon-con">
+                 <div class="patrol-icon">
+                  <i class="fa-solid fa-gas-pump"></i>
+                 </div>
+                 <p class="patrol-text">90L</p>
+               </div>
+               <div class="manual-icon-con">
+                  <div class="manual-icon">
+                      <i class="fa-solid fa-spinner"></i>
+                  </div>
+                  <p class="manual-text">Manual</p>
+               </div>
+               <div class="user-icon-con">
+                  <div class="user-icon">
+                      <i class="fa-solid fa-user-group"></i>
+                  </div>
+                  <p class="user-text">4 People</p>
+                </div>
+            </div>
+            <div class="car-price-con">
+              <div class="car-price">
+                  $74.00/ <span class="price-day">day</span>
+              </div>
+              <div class="rent-button-con">
+                  <button  class="rent-button">Rent Nox</button>
+              </div>
+            </div>
+        </div>
+    <!-- card-12  -->
+            <div class="card">
+                <div class="card-head">
+                    <p class="car-name">New MG ZS</p>
+                    <div class="car-like"><i class="fa-regular fa-heart"></i></div>
+                  </div>
+                <p class="car-category"> SUV</p>
+                <div class="car-img-con">
+                  <img class="car-img" src="Car5.png">
+                </div>
+                 <div class="detail-con">
+                   <div class="patrol-icon-con">
+                     <div class="patrol-icon">
+                      <i class="fa-solid fa-gas-pump"></i>
+                     </div>
+                     <p class="patrol-text">80L</p>
+                   </div>
+                   <div class="manual-icon-con">
+                      <div class="manual-icon">
+                          <i class="fa-solid fa-spinner"></i>
+                      </div>
+                      <p class="manual-text">Manual</p>
+                   </div>
+                   <div class="user-icon-con">
+                      <div class="user-icon">
+                          <i class="fa-solid fa-user-group"></i>
+                      </div>
+                      <p class="user-text">6 People</p>
+                    </div>
+                </div>
+                <div class="car-price-con">
+                  <div class="car-price">
+                      $80.00/ <span class="price-day">day</span>
+                  </div>
+                  <div class="rent-button-con">
+                      <button class="rent-button">Rent Nox</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+         <!-- show-more-button  -->
+         <div class="show-button-con">
+          <button class="show-button"> Show more car</button>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-con">
+      <div class="footer-logo-con">
+        <p class="f-logo">MORENT</p>
+        <p class="f-text">Our vision is to provide convenience <br> and help increase your sales business.</p>
+      </div>
+      <div class="link-con">
+        <h3 class="link-heading">About</h4>
+        <ul class="links-ul">
+          <li class="links-box"><a href="#" class="links">How it works</a></li>
+          <li class="links-box"><a href="#" class="links">Feature</a></li>
+          <li class="links-box"><a href="#" class="links">Patnership</a></li>
+          <li class="links-box"><a href="#" class="links">Bussiness Relaction</a></li>
+        </ul>
+      </div>
+      <div class="link-con">
+        <h3 class="link-heading">Community</h4>
+        <ul class="links-ul">
+          <li class="links-box"><a href="#" class="links">Events</a></li>
+          <li class="links-box"><a href="#" class="links">Blog</a></li>
+          <li class="links-box"><a href="#" class="links">Pdcast</a></li>
+          <li class="links-box"><a href="#" class="links">Invite a friend</a></li>
+        </ul>
+      </div>
+      <div class="link-con">
+        <h3 class="link-heading">Socials</h4>
+        <ul class="links-ul">
+          <li class="links-box"><a href="#" class="links">Discord</a></li>
+          <li class="links-box"><a href="#" class="links">Instagram</a></li>
+          <li class="links-box"><a href="#" class="links">Twitter</a></li>
+          <li class="links-box"><a href="#" class="links">Facebook</a></li>
+        </ul>
+      </div>
+      </div>
+      <hr>
+      <div class="footer-copy">
+      <div class="copy-icon"><i class="fa-regular fa-copyright"></i>
+      <span class="copy-text">2022MPRENT.ALL right</span>
+      </div>
+      <ul class="copy-link">
+        <li class="term-text"><a href="#">Privacy&Policy</a></li>
+        <li class="term-text"><a href="#">Terms&Condition</a></li>
+      </ul>
+      </div>
+    </footer>
+</body>
+</html>

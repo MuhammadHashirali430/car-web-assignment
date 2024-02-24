@@ -1,0 +1,557 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+.nav-bar{
+    height: 105px;
+    width: 1500px;
+    background-color: #fffffff5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* nav-box-1 */
+.nav-logo{
+    height: 2.5rem;
+    width: 10rem;
+    margin-left: 3rem;
+}
+.logo{
+    width: 9rem;
+    height: 4rem;
+    font-size: 2rem;
+    color: #3563E9;
+    font-weight: bolder;
+}
+/* nav-box-2 */
+.nav-seach-con{
+    margin-left: 2.5rem;
+    height: 1.8rem;
+    width: 62rem;
+    /* background-color: red; */
+}
+.nav-search{
+    width: 500px;
+    height: 1.8rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 0.5px solid;
+    border-radius: 8px;
+}
+.search-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 1.3rem;
+}
+.nav-input{
+    width: 25rem;
+    height: 1.5rem;
+    font-size: 1.3rem;
+    border: none;   
+}
+.silider-icon{
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 1.3rem;
+}
+
+/* nav-box-3 */
+
+.nav-like{
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid black;
+    margin-right: 0.95rem;
+}
+.like-icon{
+    height: 1rem;
+    width: 1rem;
+    font-size: 1.1rem;
+}
+
+/* nav-box-4 */
+
+.nav-bell{
+    height: 2rem;
+    width:2rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid black;
+    margin-right: 0.95rem;
+}
+.bell-icon{
+    height: 1rem;
+    width: 1rem;
+    font-size: 1.1rem;
+}
+
+/* nav-box-5 */
+
+.nav-setting{
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1px solid black;
+    margin-right: 0.95rem;
+}
+.setting-icon{
+    height: 1rem;
+    width: 1rem;
+    font-size: 1.1rem;
+}
+
+/* nav-box-6 */
+
+.profile{
+    height: 2.4rem;
+    width: 2.4rem;
+    font-size: 1.4rem;
+    border-radius: 50%;
+}
+.main-con-color{
+    background-color: #f8f5f5;
+    /* overflow: hidden; */
+}
+.main-con{
+    /* background-color: #ececec; */
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.hero-section-con{
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    /* grid-template-rows: repeat(3,27rem); */
+    /* grid-template-columns: 43.5rem 43.5rem; */
+    grid-template-rows: 23rem;
+    grid-gap: 1.5rem;
+    /* margin-top: 3rem; */
+    /* margin-left: 4rem; */
+    /* margin-right: 4rem; */
+}
+.hero-box-1{
+    background-color: #54a6ff;
+    border-radius: 7px;
+    margin-top: 2rem;
+}
+.hero-box-2{
+    background-color: #3d81db;
+    border-radius: 7px;
+    margin-top: 2rem;
+}
+.hero-box-con{
+    margin: 2rem 0% 1rem 1.5rem;
+    color: white;
+}
+.hero-box-heading{
+  /* text-transform: capitalize; */
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.3rem;
+  /* margin-bottom: 1rem; */
+}
+.hero-box-text{
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.90rem;
+}
+.hero-button{
+    height: 2rem;
+    width: 7rem;
+    background-color: #3563E9;
+    /* border: none; */
+    border-radius: 3px;
+    color: #ffffff;
+ }
+ .hero-button-2{
+    height: 2rem;
+    width: 7rem;
+    background-color: #54a6ff;
+    /* border: none; */
+    border-radius: 3px;
+    color: #ffffff;
+ }
+ .img-con{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 1rem;
+
+    
+ }
+ .hero-car{
+    height: 100px;
+    width: 300px;
+ }
+
+
+
+.panel-container{
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  margin-top: 2rem;
+  /* flex-wrap: wrap; */
+  
+}
+.panel-box-1{
+   width: 38.5rem;
+   height: 8rem;
+   background-color: #fffffff5;
+   border-radius: 5px;
+   /* margin-left: 4rem; */
+   padding: 1.5rem 2rem 1.5rem 2rem;
+}
+.radio-con{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.radio-button{
+    height: 15px;
+    width: 15px;
+    appearance: none;
+    outline: 2px solid grey;
+    outline-offset: 3px;
+    border-radius: 50%;
+}
+.radio-button:checked{
+    background-color: #54a6ff;
+}
+.panel-content{
+    display: flex;
+    justify-content: space-between;
+}
+.con{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    box-shadow: 2px 0px gainsboro;
+}
+#sel-loc{
+    margin-top: 0.6rem; 
+    width: 10rem;
+    border: none;
+}
+.panel-box-2{
+   width: 4rem;
+   height: 4rem;
+   background-color: #3d81db;
+   border-radius: 7px;
+   margin-left: 3rem;
+   margin-right: 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.up-down-icon{
+    /* font-weight: 800; */
+    font-size: 1.5rem;
+    color: #ffffff;
+   
+}
+.panel-box-3{
+   width: 38.5rem;
+   height: 8rem;
+   background-color: #fffffff5;
+   border-radius: 5px;
+   /* margin-right: 4rem; */
+   padding: 1.5rem 2rem 1.5rem 2rem;
+}
+.populor-car-con{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 1.5rem;
+}
+.populor-car{
+    font-size: 1.2rem;
+    font-weight: 1rem;
+    color:  rgb(119, 119, 119);
+}
+.viewall-link{
+    font-size: 1.2rem;
+    font-weight: 1rem;
+    text-decoration: none;
+    color: #3563E9;
+}
+.shop-section-con{
+    display: grid;
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-rows: repeat(3,27rem);
+    grid-gap: 2.1rem;
+}
+.card{
+    background-color: #fffffff5;
+    border-radius: 0.7rem;
+    padding: 1.8rem  1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-head{
+    display: flex;
+    justify-content: space-between;
+}
+.car-name{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-bottom: 0.4rem;
+}
+.car-like{
+    font-size: 1.5rem;
+}
+.car-category{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:  rgb(119, 119, 119);
+}
+.car-img-con{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.car-img{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.detail-con{
+    display: flex;
+    justify-content: space-between;
+    color:  rgb(119, 119, 119);
+    margin-bottom: 2rem;
+}
+.patrol-icon-con{
+    display: flex;
+}
+.patrol-icon{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.patrol-text{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 0.4rem;
+}
+.manual-icon-con{
+    display: flex;
+}
+.manual-icon{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.manual-text{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 0.4rem; 
+}
+.user-icon-con{
+    display: flex;
+}
+.user-icon{
+    font-size: 1.2rem;
+    font-weight: 900; 
+}
+.user-text{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 0.4rem;
+}
+.car-price-con{
+    display: flex;
+    justify-content: space-between;
+}
+.car-price{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.price-day{
+    font-size: 1rem;
+    color:  rgb(119, 119, 119);
+}
+.price-drop{
+    font-size: 1rem;
+    font-weight: bold;
+    color:  rgb(119, 119, 119);
+    text-decoration: line-through;
+}
+.rent-button{
+    height: 2.5rem;
+    width: 6.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #3563E9;
+    border-radius: 4px;
+}
+
+.show-button-con{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.show-button{
+    height: 2.5rem;
+    width: 9rem;
+    background-color: #3563E9;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    /* border: none; */
+    /* justify-self: flex-end; */
+}
+footer{
+   margin: 4rem 6rem 2rem 4rem ;
+    background-color: #fffffff5;
+}
+.footer-con{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+.footer-logo-con{
+    width: 45rem;
+}
+.f-logo{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #3563E9;
+    margin-bottom: 1.3rem;
+}
+.f-text{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: #5c5c5c;
+    padding-bottom: 2rem;
+}
+.link-con{
+    margin-right: 1.5rem;
+}
+.link-heading{
+    padding-bottom: 0.8rem;
+    font-size: 1.3rem
+}
+.links-box{
+    padding-top:  1.5rem;
+    list-style: none;
+}
+.links{
+    text-decoration: none;
+    color: #5c5c5c;
+    font-size: 1.1rem;
+}
+.footer-copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.3rem;
+    flex-wrap: wrap-reverse;
+}
+.copy-icon{
+    font-size: 1rem;
+    font-weight: 1rem;
+}
+.copy-text{
+    font-size: 1.1rem;
+    font-weight: 1.2rem;
+}
+.copy-link{
+    display: flex;
+    list-style: none;
+}
+.term-text{
+    padding-left: 1rem;
+}
+.copy-link a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 1.2rem;
+    color: black;
+}
+
+
+@media only screen and (max-width: 1494px) {
+      .nav-seach-con{
+        display: none; 
+    }
+    .nav-like{
+    display: none;
+}
+.nav-bell{
+    display: none; 
+}
+.nav-setting{
+    display: none; 
+}
+.nav-bar{
+    justify-content: space-between;
+    width: auto;
+    margin-right: 2rem;
+}
+/* .panel-box-1{
+    margin-bottom: 2rem;
+} */
+.panel-box-2{
+    /* display: none; */
+}
+}
+
+ @media only screen and (max-width: 1513px){
+    .panel-container{
+        flex-wrap: wrap;
+    }
+    .panel-box-1 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .panel-box-2 {
+        display: none;
+    }
+    .panel-box-3 {
+        width: 100%;
+    }
+    .links-ul{
+        margin-bottom: 2rem;
+    }
+ }
+ @media only screen and (max-width: 1100px){
+    .main-con{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .footer{
+        margin:  4rem 6rem 2rem 2rem;
+    }
+ }
+ @media only screen and (max-width: 600px){
+    #sel-loc {
+        width: 5rem;
+    }
+ }
+
+
+
+
